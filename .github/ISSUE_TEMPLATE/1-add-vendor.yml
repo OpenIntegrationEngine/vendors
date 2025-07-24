@@ -1,10 +1,9 @@
-name: Add Vendor
+name: "Add Vendor"
 description: Add yourself or your company as a vendor
 title: [Add] Vendor name
 labels: ["add"]
 body:
   - type: input
-    id: contact
     attributes:
       label: Vendor Name
       description: What name do you want listed? Can be an individual or a company
@@ -12,7 +11,6 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: common_services
     attributes:
       label: What services do you provide?
       multiple: true
@@ -25,7 +23,6 @@ body:
         - Custom Development
         - Training
   - type: checkboxes
-    id: terms
     attributes:
       label: Listing Policy
       description: By submitting this issue, you agree that you have read and understood [Commercial Support Listings Policy](https://github.com/OpenIntegrationEngine/governance/vendors.md). 
