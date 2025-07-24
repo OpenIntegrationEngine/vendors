@@ -14,7 +14,8 @@ body:
     attributes:
       label: What services do you provide?
       multiple: true
-      required: true
+      validations:
+        required: true
       options:
         - Integration and Interface Services
         - Migration from Other Engines
