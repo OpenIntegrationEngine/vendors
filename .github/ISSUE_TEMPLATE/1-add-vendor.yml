@@ -21,8 +21,8 @@ body:
         - Managed Support
         - Custom Development
         - Training
-      validations:
-        required: true
+    validations:
+      required: true
   - type: checkboxes
     attributes:
       label: Listing Policy
