@@ -1,6 +1,6 @@
 name: Remove Vendor
 description: Remove an existing vendor entry
-title: [Remove] Vendor name
+title: "[Remove] Vendor name"
 labels: ["remove"]
 body:
   - type: input

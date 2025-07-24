@@ -10,6 +10,31 @@ body:
       placeholder: Some Company, GMbH, LLC
     validations:
       required: true
+  - type: textarea
+    attributes:
+      label: Contact Information
+      description: "One or more links, URLs, phone numbers, websites or contact information"
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Supported Regions
+      description: Regions where the vendor offers services
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Logo
+      description: A URL to a logo in a common image format suitable for display in varying sizes.
+    validations:
+      required: false
+  - type: input
+    attributes:
+      label: Contributor
+      description: A URL showing your contributions to the open source contributions by the vendor
+      placeholder: https://github.com/yourusername
+    validations:
+      required: false
   - type: dropdown
     attributes:
       label: What services do you provide?
@@ -21,6 +46,13 @@ body:
         - Managed Support
         - Custom Development
         - Training
+        - Something Else
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Additional Information
+      value: "Vendors may include any additional information about your services, your company, your staff, etc. "
     validations:
       required: true
   - type: checkboxes

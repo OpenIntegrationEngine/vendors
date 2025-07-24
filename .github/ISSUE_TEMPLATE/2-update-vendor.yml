@@ -1,6 +1,6 @@
 name: Update Vendor
 description: Update an existing vendor entry
-title: [Update] Vendor name
+title: "[Update] Vendor name"
 labels: ["update"]
 body:
   - type: input
