@@ -1,0 +1,36 @@
+name: Add Vendor
+description: Add yourself or your company as a vendor
+title: [Add] Vendor name
+labels: ["add"]
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Vendor Name
+      description: What name do you want listed? Can be an individual or a company
+      placeholder: Some Company, GMbH, LLC
+    validations:
+      required: true
+  - type: dropdown
+    id: common_services
+    attributes:
+      label: What services do you provide?
+      multiple: true
+      required: true
+      options:
+        - Integration and Interface Services
+        - Migration from Other Engines
+        - Cloud Hosting
+        - Managed Support
+        - Custom Development
+        - Training
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Listing Policy
+      description: By submitting this issue, you agree that you have read and understood [Commercial Support Listings Policy](https://github.com/OpenIntegrationEngine/governance/vendors.md). 
+      options:
+        - label: I have read and understood Commercial Support Listings Policy
+          required: true
+        - label: I am the individual, owner, or acting with permission and authority for the company I am submitting
+          required: true
