@@ -14,8 +14,6 @@ body:
     attributes:
       label: What services do you provide?
       multiple: true
-      validations:
-        required: true
       options:
         - Integration and Interface Services
         - Migration from Other Engines
@@ -23,6 +21,8 @@ body:
         - Managed Support
         - Custom Development
         - Training
+      validations:
+        required: true
   - type: checkboxes
     attributes:
       label: Listing Policy
