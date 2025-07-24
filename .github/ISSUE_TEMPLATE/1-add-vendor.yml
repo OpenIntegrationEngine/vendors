@@ -62,5 +62,5 @@ body:
       options:
         - label: I have read and understood Commercial Support Listings Policy
           required: true
-        - label: I am the individual, owner, or acting with permission and authority for the company I am submitting
+        - label: I am the individual, owner, or acting with permission and authority for the vendor I am submitting
           required: true
