@@ -24,6 +24,12 @@ body:
       required: false
   - type: input
     attributes:
+      label: Languages Spoken
+      description: Human languages the vendor is comfortable communicating with
+    validations:
+      required: false
+  - type: input
+    attributes:
       label: Logo
       description: A URL to a logo in a common image format suitable for display in varying sizes.
     validations:
