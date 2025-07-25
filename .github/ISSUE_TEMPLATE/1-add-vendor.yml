@@ -35,20 +35,26 @@ body:
       placeholder: https://github.com/yourusername
     validations:
       required: false
-  - type: dropdown
+  - type: checkboxes
     attributes:
       label: What services do you provide?
-      multiple: true
       options:
-        - Integration and Interface Services
-        - Migration from Other Engines
-        - Cloud Hosting
-        - Managed Support
-        - Custom Development
-        - Training
-        - Something Else
+        - label: Integration and Interface Services
+          required: false
+        - label: Migration from Other Engines
+          required: false
+        - label: Cloud Hosting
+          required: false
+        - label: Managed Support
+          required: false
+        - label: Custom Development
+          required: false
+        - label: Training
+          required: false
+        - label: Something Else
+          required: false
     validations:
-      required: true
+      required: false
   - type: textarea
     attributes:
       label: Additional Information
