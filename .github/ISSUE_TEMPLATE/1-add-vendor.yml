@@ -66,7 +66,7 @@ body:
       label: Additional Information
       value: "Vendors may include any additional information about your services, your company, your staff, etc. "
     validations:
-      required: true
+      required: false
   - type: checkboxes
     attributes:
       label: Listing Policy
